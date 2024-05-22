@@ -27,10 +27,8 @@ PRODUCT_PACKAGES += \
     Changelog.txt
 
 # Udfps icons
-ifeq ($(EXTRA_UDFPS_ICONS),true)
 PRODUCT_PACKAGES += \
     UdfpsIcons
-endif
 
 # TFLite service
 PRODUCT_PACKAGES += libtensorflowlite_jni
